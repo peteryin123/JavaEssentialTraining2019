@@ -43,6 +43,8 @@ public class Main {
                     results = d1 / d2;
                     System.out.println("The answer is " + results);
                     break;
+                default:
+                    System.out.println("Please choose the correct operation");
             }
         } catch (InputMismatchException e) {
             System.out.println("Couldn't format as a number");
