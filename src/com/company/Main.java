@@ -21,7 +21,7 @@ public class Main {
             d2 = sc.nextDouble();
             sc.nextLine();
 
-            System.out.println("Select an operation (+ - * /): ");
+            System.out.print("Select an operation (+ - * /): ");
             var o1 = sc.nextLine();
 
             double results;
